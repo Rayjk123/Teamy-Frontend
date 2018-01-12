@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="240px" height="192px" viewBox="0 0 240 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>new project</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M73,14 L240,14 L240,30 L240,192 L0,192 L0,30 L0,14 L0,0 L58.987912,0 L73,14 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="240" height="192" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-979.000000, -150.000000)">
+        <g id="projects" transform="translate(220.000000, 150.000000)">
+            <g id="new-project" transform="translate(759.000000, 0.000000)">
+                <g>
+                    <g id="folder" stroke="#979797" stroke-dasharray="10">
+                        <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+                        <path d="M1,31 L241,31" id="Line" stroke-width="2" stroke-linecap="square"></path>
+                    </g>
+                    <g id="new" transform="translate(95.000000, 87.000000)" fill="#979797">
+                        <polygon points="50 28.5714286 28.5714286 28.5714286 28.5714286 50 21.4285714 50 21.4285714 28.5714286 0 28.5714286 0 21.4285714 21.4285714 21.4285714 21.4285714 0 28.5714286 0 28.5714286 21.4285714 50 21.4285714"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

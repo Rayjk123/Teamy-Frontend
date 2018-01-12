@@ -1,0 +1,28 @@
+.Projects {
+    --row-space: 80px;
+}
+
+.Projects > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.Projects > ul > li {
+    width: 33%;
+}
+
+.Projects > ul > li:nth-child(3n + 2) > .Project {
+    margin: 0 auto;
+}
+
+.Projects > ul > li:nth-child(3n + 3) > .Project {
+    margin: 0 0 0 auto;
+}
+
+.Projects > ul > li:not(.top) {
+    margin-top: var(--row-space);
+}
