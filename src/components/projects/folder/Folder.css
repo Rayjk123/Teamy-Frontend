@@ -8,3 +8,72 @@
 .Folder.blue .body {
     fill: #107FAD;
 }
+
+.Folder.orange .top {
+    fill: #902904;
+}
+.Folder.orange .body {
+    fill: #A74521;
+}
+
+.Folder.green .top {
+    fill: #057900;
+}
+.Folder.green .body {
+    fill: #3F920B;
+}
+
+.Folder.brown .top {
+    fill: #4E342E;
+}
+.Folder.brown .body {
+    fill: #6D4C41;
+}
+
+.Folder.pink .top {
+    fill: #AD1457;
+}
+
+.Folder.pink .body {
+    fill: #D81B60;
+}
+
+.Folder.purple .top {
+    fill: #4527A0;
+}
+
+.Folder.purple .body {
+    fill: #5E35B1;
+}
+
+.Folder.teal .top {
+    fill: #00695C;
+}
+
+.Folder.teal .body {
+    fill: #00897B;
+}
+
+.Folder.blue-gray .top {
+    fill: #37474F;
+}
+
+.Folder.blue-gray .body {
+    fill: #546E7A;
+}
+
+.Folder.gray .top {
+    fill: #424242;
+}
+
+.Folder.gray .body {
+    fill: #616161;
+}
+
+.Folder.red .top {
+    fill: #c62828;
+}
+
+.Folder.red .body {
+    fill: #e53935;
+}

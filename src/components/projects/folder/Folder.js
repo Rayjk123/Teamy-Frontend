@@ -5,7 +5,7 @@ class Folder extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            color: 'blue'
+            color: props.color
         }
     }
 
