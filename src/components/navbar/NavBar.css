@@ -1,0 +1,64 @@
+.NavBar {
+    background-color: #007B89;
+}
+
+.NavBar .center {
+    display: flex;
+}
+
+.NavBar .logo, .NavBar .user-info .notification {
+    padding: 5px 0;
+}
+
+.NavBar .logo,
+.NavBar .logo > img,
+.NavBar .user-info .notification,
+.NavBar .user-info .notification > img{
+    height: 40px;
+    width: 40px;
+}
+
+.NavBar .logo > img {
+    width: 40px;
+    height: 40px;
+}
+
+.NavBar .menu {
+    flex: 1;
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+    display: flex;
+}
+
+.NavBar .menu > li {
+    padding: 14px 25px;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2pt;
+}
+
+.NavBar .menu > li.selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.NavBar .user-info {
+    display: flex;
+}
+
+.NavBar .user-info .profile {
+    height: 30px;
+    width: 30px;
+    padding: 10px 0;
+}
+
+.NavBar .user-info .notification {
+    margin-right: 30px;
+}
+
+.NavBar .user-info .profile img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+}
