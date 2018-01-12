@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Folder from "./folder/Folder";
 
 class Projects extends Component {
     constructor(props) {
@@ -9,7 +10,9 @@ class Projects extends Component {
         return (
             <div>
                 <ul>
-
+                    <li>
+                        <Folder/>
+                    </li>
                 </ul>
             </div>
         );

@@ -1,0 +1,10 @@
+.Folder {
+
+}
+
+.Folder.blue .top {
+    fill: #005E85;
+}
+.Folder.blue .body {
+    fill: #107FAD;
+}
