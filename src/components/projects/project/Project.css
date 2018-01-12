@@ -1,0 +1,27 @@
+.Project {
+    width: 240px;
+    position: relative;
+}
+
+.Project > .Folder:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.Project > .name {
+    text-align: center;
+    letter-spacing: 2pt;
+    color: #3F3F3F;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.Project > .description {
+    margin-top: 12px;
+    letter-spacing: 1.34pt;
+    color: #666666;
+    font-size: 16px;
+    line-height: 20px;
+}
