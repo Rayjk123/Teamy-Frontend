@@ -9,7 +9,9 @@ class App extends Component {
         return (
             <div className="App">
               <NavBar/>
-              <Projects/>
+              <div className={'center'}>
+                <Projects/>
+              </div>
               <div className={'authorship'}>
                 Made with <img src={heart}/> by <a className={'author-github'} href={'https://github.com/byliuyang'}>Yang
                 Liu</a>

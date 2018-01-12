@@ -1,8 +1,9 @@
 .App {
+  --projects-margin: 100px;
 }
 
 .App .NavBar {
-  margin-bottom: 50px;
+  margin-bottom: var(--projects-margin);
 }
 
 .App .center {
@@ -16,7 +17,7 @@
   justify-content: center;
   color: #6C6C6C;
   font-size: 20px;
-  margin: 50px 0;
+  margin: var(--projects-margin) 0;
   font-weight: bold;
 }
 
