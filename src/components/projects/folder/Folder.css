@@ -1,5 +1,5 @@
 .Folder {
-
+    position: relative;
 }
 
 .Folder.blue .top {
@@ -76,4 +76,27 @@
 
 .Folder.red .body {
     fill: #e53935;
+}
+
+.Folder .icon {
+    display: block;
+    position: absolute;
+    height: 70px;
+    font-size: 70px;
+    top: 76px;
+    left: 85px;
+    opacity: 0.7;
+    color: white;
+}
+
+.Folder > .settings-icon {
+    opacity: 0;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    transition: opacity 200ms cubic-bezier(1, 0, 0, 1);
+}
+
+.Folder:hover > .settings-icon {
+    opacity: 1;
 }
