@@ -1,6 +1,10 @@
 .App {
 }
 
+.App .NavBar {
+  margin-bottom: 50px;
+}
+
 .App .center {
   width: 1000px;
   margin-left: auto;
