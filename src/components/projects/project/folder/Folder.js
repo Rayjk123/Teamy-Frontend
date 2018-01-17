@@ -6,14 +6,11 @@ import './Folder.css';
 class Folder extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            folder: props.folder
-        }
     }
 
     render() {
         return (
-            <div className={`Folder ${this.state.folder.color}`}>
+            <div className={`Folder ${this.props.folder.color}`}>
                 <svg width="240px" height="192px" viewBox="0 0 240 192"
                      version="1.1">
                     <g stroke="none" strokeWidth="1" fill="none" fillRule="evenodd"
@@ -29,8 +26,10 @@ class Folder extends Component {
                         </g>
                     </g>
                 </svg>
-                <i className={`icon icon-tech-${this.state.folder.icon}`}/>
-                <img className={'settings-icon'} src={settings}/>
+                <i className={`icon icon-tech-${this.props.folder.icon}`}/>
+                {
+                    this.props.showSettings ? <img className={'settings-icon'} src={settings}/> : null
+                }
             </div>
         );
     }

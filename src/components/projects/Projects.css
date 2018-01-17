@@ -26,3 +26,13 @@
 .Projects > ul > li:not(.top) {
     margin-top: var(--row-space);
 }
+
+.Projects > ul > li > .Project.new-project {
+    opacity: 0.6;
+    transition: opacity 200ms cubic-bezier(1, 0, 0, 1);
+}
+
+.Projects > ul > li > .Project.new-project:hover {
+    cursor: pointer;
+    opacity: 1;
+}
