@@ -8,7 +8,7 @@ class NavBar extends Component {
         super(props);
         this.state = {
             menu: {
-                selected: 0,
+                selected: 1,
                 items: [
                     {
                         name: 'Projects',

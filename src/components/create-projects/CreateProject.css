@@ -1,0 +1,8 @@
+.CreateProject {
+    width: 1024px;
+}
+
+.CreateProject .title {
+    margin: 0 24px;
+    background-color: #009AAC;
+}

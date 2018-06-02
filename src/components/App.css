@@ -34,3 +34,9 @@
 .App .authorship .author-github:hover {
   text-decoration: underline;
 }
+
+.App .CreateProject {
+  position: fixed;
+  z-index: 100;
+  top: 84px;
+}
