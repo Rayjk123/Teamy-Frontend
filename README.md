@@ -1,5 +1,5 @@
-# Teamy
-Effective task manager for startups and small companies
+# Teamy Frontend
+Backend for Teamy, an effective task manager for startups and small companies
 
 ## Getting Started
 
