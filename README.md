@@ -46,7 +46,7 @@ We use SemVer for versioning.
 
 ## Authors
 
-- **Yang Liu** - *Initial work* - [byliuyang](https://github.com/byliuyang)
+- **Harry Liu** - *Initial work* - [byliuyang](https://github.com/byliuyang)
 
 ## License
 This project is maintained under the MIT License.
