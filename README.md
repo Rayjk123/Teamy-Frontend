@@ -1,5 +1,5 @@
 # Teamy Frontend
-Backend for Teamy, an effective task manager for startups and small companies
+Frontend for Teamy, an effective task manager for startups and small companies
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ npm install
 
 ### Running
 
-To lunch the development server, please run the following command: 
+To launch the development server, please run the following command: 
 
 ```
 npm start
